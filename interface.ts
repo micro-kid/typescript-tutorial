@@ -12,4 +12,6 @@ let tom: Person = {
   gender: 'male'
 };
 
-console.log(tom)
+console.log(tom ?? '2')
+
+tom?.name?.length
